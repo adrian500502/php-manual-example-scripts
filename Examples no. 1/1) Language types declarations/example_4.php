@@ -1,0 +1,11 @@
+<?php
+
+// Example #8 Strict typing for arguments values
+declare(strict_types = 1);
+
+function sum(int $a, int $b) {
+    return $a + $b;
+}
+
+var_dump(sum(1,2));
+var_dump(sum(1.5,2.5));
